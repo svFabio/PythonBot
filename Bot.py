@@ -1,7 +1,6 @@
 import requests
 import time
 
-
 def sendMessage(para, mensaje):
     url = 'http://localhost:3000/lead'
     data = {
