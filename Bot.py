@@ -3,7 +3,7 @@ import time
 
 
 def sendMessage(para, mensaje):
-    url = 'http: //localhost:3001/lead'
+    url = 'http://localhost:3000/lead'
     data = {
         "message": mensaje,
         "phone": para
