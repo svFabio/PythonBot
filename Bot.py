@@ -11,3 +11,9 @@ def sendMessage(para, mensaje):
     headers = {
         'Content-Type': 'application/json'
     }
+
+    print(data)
+    response = requests.post(url, json=data, headers=headers)
+    time.sleep(10)  # ajusta como quieras
+    return response
+
