@@ -17,3 +17,4 @@ def sendMessage(para, mensaje):
     time.sleep(10)  # ajusta como quieras
     return response
 
+sendMessage('59160769694', 'Hola')
