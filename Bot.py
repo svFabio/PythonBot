@@ -16,4 +16,7 @@ def sendMessage(para, mensaje):
     time.sleep(10)  # ajusta como quieras
     return response
 
-sendMessage('59160769694', 'Hola')
+cantMess = input("Cantidad mensajes: ")
+cantMess = int(cantMess)
+for i in range(cantMess):
+    sendMessage('60769694', 'Hola')
